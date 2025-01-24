@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white;
+  min-height: 100vh;
+}
+
+.chat-container {
+  @apply w-full max-w-2xl mx-auto p-4;
+}
+
+.chat-message {
+  @apply p-5 my-3 rounded-xl text-base leading-relaxed max-w-[85%] transition-colors duration-200;
+}
+
+.user-message {
+  @apply bg-purple-50 dark:bg-purple-900/50 ml-auto;
+}
+
+.bot-message {
+  @apply bg-white dark:bg-gray-800 mr-auto shadow-sm dark:shadow-gray-800;
+}
+
+.messages-container {
+  @apply pb-32 overflow-y-auto max-h-[calc(100vh-180px)];
+}
+
+.input-container {
+  @apply fixed bottom-0 left-0 right-0 p-4 bg-white/95 dark:bg-gray-900/95 
+         backdrop-blur-md border-t border-gray-200 dark:border-gray-800 z-50;
+}
+
+.chat-input {
+  @apply w-full px-4 py-3 pr-20 rounded-2xl border border-gray-200 
+         dark:border-gray-700 dark:bg-gray-800 dark:text-white
+         resize-none min-h-[60px] max-h-[200px] text-base leading-relaxed
+         focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-400
+         transition-all duration-200;
+}
+
+.action-buttons {
+  @apply absolute right-2 top-1/2 -translate-y-1/2 flex gap-2;
+}
+
+.action-button {
+  @apply p-2 rounded-full bg-gray-100 dark:bg-gray-700 
+         hover:bg-gray-200 dark:hover:bg-gray-600
+         transition-colors duration-200 flex items-center justify-center;
+}
+
+.send-button {
+  @apply bg-purple-500 hover:bg-purple-600 dark:bg-purple-600 dark:hover:bg-purple-700;
+}
+
+.loading-dots {
+  @apply flex gap-2 p-2 items-center justify-center;
+}
+
+.dot {
+  @apply w-2 h-2 bg-purple-500 dark:bg-purple-400 rounded-full animate-bounce;
+}
+
+/* Markdown Styles */
+.chat-message h1 {
+  @apply text-2xl font-semibold my-4 dark:text-white;
+}
+
+.chat-message h2 {
+  @apply text-xl font-semibold my-3 dark:text-gray-200;
+}
+
+.chat-message h3 {
+  @apply text-lg font-semibold my-2 dark:text-gray-300;
+}
+
+.chat-message p {
+  @apply my-2 dark:text-gray-200;
+}
+
+.chat-message ul {
+  @apply my-2 pl-6 list-disc dark:text-gray-200;
+}
+
+.chat-message li {
+  @apply my-1;
+}
+
+.chat-message strong,
+.chat-message b {
+  @apply font-semibold dark:text-white;
+}
+
+.chat-message blockquote {
+  @apply border-l-4 border-gray-200 dark:border-gray-700 pl-4 my-4 
+         text-gray-600 dark:text-gray-400 italic;
+}
+
+.chat-message hr {
+  @apply my-4 border-gray-200 dark:border-gray-700;
+}
+
+/* Rest of your custom styles */
