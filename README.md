@@ -1,6 +1,6 @@
-# Medical Report Analyzer Chatbot
+# Medical Report Analyzer Chatbot - HealthHype
 
-A React-based medical report analysis chatbot powered by Google's Gemini AI. This application can process medical reports through OCR, analyze lab results, and provide detailed explanations in simple language.
+A React-based healthcare assistant / medical report analysis chatbot powered by Google's Gemini AI. This application can process medical reports through OCR, analyze lab results, and provide detailed explanations in simple language.
 
 ![Medical Report Analyzer Demo](demo.gif) <!-- You can add a demo gif later -->
 
@@ -111,9 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/medical-report-analyzer](https://github.com/yourusername/medical-report-analyzer)
+Project Link: [https://github.com/rag3frost/healthcare-bot](https://github.com/rag3frost/healthcare-bot)
 
 ## Support
 
