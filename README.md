@@ -3,7 +3,7 @@
 A React-based healthcare assistant / medical report analysis chatbot powered by Google's Gemini AI. This application can process medical reports through OCR, analyze lab results, and provide detailed explanations in simple language.
 
 ![Medical Report Analyzer Demo](https://github.com/rag3frost/blank-app/blob/main/2025-01-24-22-40-17.gif)  
-
+![Medical Report Analyzer Demo](https://github.com/rag3frost/blank-app/blob/main/2025-01-24-22-36-24.gif)
 ## Features
 
 - 🏥 Medical report analysis with detailed explanations
